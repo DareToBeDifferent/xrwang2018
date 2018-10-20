@@ -1,0 +1,28 @@
+1、Steps need to do when you install git in your computer.
+
+$ git config --global user.name "your name"
+$ git config --global user.eamil "your email address"
+$ ssh-keygen -t rsa -C "your eamil address"
+$ setting SSH keys in github.
+
+
+2、How to put your project in your computer disk to a github repository ?
+$ git init
+$ git add .		//put all files that has been changed into a temp space of git
+$ git commit -m "description of your behavior"
+$ git remote rm origin
+$ git remote add origin http://github.com/your github nicknamme/repository name
+// in this process ,you may need to login your github account
+$ git pull origin master  //or: git pull origin master:your-Branch-Repository-name 
+$ git push -u origin master  //or: git push -u origin master:your-Branch-Repository-name 
+
+
+3、How to delete a file or a dictionary in github by git command?
+1st、$ git pull origin master 	//link origin to your repository in github。
+2nd、$ git rm -r --cached DictionaryOrFileName	//delete it in temp space.
+3rd、$ git commit -m "description of your delete behavior"	//commit your delete. And give a description.
+4th、$ git push origin masters	//push your project which is in temp space to master.
+5th、End.
+
+savs : security of autonomous vehicle systems lab
+无人驾驶系统安全实验室
