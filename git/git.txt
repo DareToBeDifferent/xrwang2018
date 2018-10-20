@@ -24,5 +24,8 @@ $ git push -u origin master  //or: git push -u origin master:your-Branch-Reposit
 4th、$ git push origin masters	//push your project which is in temp space to master.
 5th、End.
 
+4、it 
+git pull --allow-unrelated-histories
+
 savs : security of autonomous vehicle systems lab
 无人驾驶系统安全实验室
